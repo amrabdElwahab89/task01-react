@@ -1,0 +1,86 @@
+.card-container {
+  border: 0px;
+  border-radius: 30px;
+}
+
+.service-Pasedooo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100px;
+  margin-top: 48px;
+  margin-bottom: 52px;
+}
+
+.service-Pasedooo span {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 89.5px;
+  color: #6d91ee;
+}
+
+.service-line {
+  position: absolute;
+  width: 45px;
+  height: 2px;
+  background-color: #4a7aff;
+}
+
+.service-line.top-left {
+  top: 20px;
+  left: 650px;
+  transform: rotate(-45deg);
+}
+
+.service-line.bottom-left {
+  bottom: 10px;
+  left: 650px;
+  transform: rotate(45deg);
+}
+
+.service-line.top-right {
+  top: 10px;
+  right: 650px;
+  transform: rotate(45deg);
+}
+
+.service-line.bottom-right {
+  bottom: 10px;
+  right: 650px;
+  transform: rotate(-45deg);
+}
+
+.card-img {
+  height: 504px;
+  border: 0px;
+  border-radius: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.services-heading {
+  font-size: 16px;
+  font-weight: 900;
+  color: #324473;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.services-description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #324473;
+}
+
+.service-help-me-button {
+  margin-top: 20px;
+  margin-bottom: 75px;
+  background-color: #5180f6;
+  width: 280px;
+  height: 86px;
+  border: none;
+  border-radius: 71px;
+  font-size: 24px;
+  color: #ffffff;
+}

@@ -1,0 +1,59 @@
+.testymonials-Pasedooo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100px;
+  margin-top: 48px;
+  margin-bottom: 52px;
+}
+
+.testymonials-Pasedooo span {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 89.5px;
+  color: #6d91ee;
+}
+
+.testymonials-line {
+  position: absolute;
+  width: 45px;
+  height: 2px;
+  background-color: #4a7aff;
+}
+
+.testymonials-line.top-left {
+  top: 20px;
+  left: 400px;
+  transform: rotate(-45deg);
+}
+
+.testymonials-line.bottom-left {
+  bottom: 10px;
+  left: 400px;
+  transform: rotate(45deg);
+}
+
+.testymonials-line.top-right {
+  top: 10px;
+  right: 400px;
+  transform: rotate(45deg);
+}
+
+.testymonials-line.bottom-right {
+  bottom: 10px;
+  right: 400px;
+  transform: rotate(-45deg);
+}
+
+.testymonials-heading {
+  color: #6d91ee;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.testymonials-description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #22366a;
+}

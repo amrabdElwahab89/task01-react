@@ -1,0 +1,66 @@
+.aboutUs-container {
+  width: 100%;
+  height: 840px;
+  margin-block: 57px;
+  text-align: center;
+}
+
+.aboutUs-background01 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  z-index: 1;
+}
+
+.aboutUs-background02 {
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  z-index: 2;
+}
+
+.aboutUs-content {
+  top: 0;
+  left: 0;
+  z-index: 3;
+  padding: 50px;
+}
+.aboutUs-content-leftSection {
+  padding-top: 20px;
+}
+
+.aboutUs-content-rightSection {
+  padding-top: 100px;
+}
+
+.aboutUs-heading {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 64px;
+}
+
+.aboutUs-description {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.helpMe-button {
+  z-index: 5;
+  bottom: 50px;
+  right: 40%;
+  background-color: #eec04b;
+  width: 280px;
+  height: 86px;
+  border-radius: 71px;
+  margin-top: 50px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+}
